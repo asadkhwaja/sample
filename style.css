@@ -1,0 +1,151 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items:center;
+}
+body{
+    background-color: #EEEEEE;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;        
+}
+.logo img{
+    width:35%;
+    padding:20px;
+   
+}
+.nav-bar{
+    height: 15vh;
+    position:fixed;
+    top:0;
+    background-color: #EEEEEE;
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+}
+.buttons ul{
+    display: flex;
+    flex-basis: 100%;
+    justify-content: center;
+}
+.buttons li{
+    list-style: none;
+    font-size: 1em;
+    margin: 0 50px;
+    cursor: pointer;
+}
+.heading h1{
+font-size: 22px;
+font-weight: 600;
+}
+.heading {
+    margin-top: 100px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+#email-bar{
+    width: 250px;
+    padding: 3px 2px;   
+    margin-top: 13px;
+    }
+.heading h3{
+    font-size: medium;
+    font-weight: 750;
+    padding: 2px;
+    background-color: #F1C40F;
+    margin-top: 14px;
+    cursor: pointer;
+
+}
+.qualities{
+    width :60%;
+}
+.info , .video{
+    margin-top: 40px;
+}
+.info h2{
+    font-weight: 550;
+    font-size: 24px;
+}
+.info p{
+    font-size: 14px;
+}
+.video{
+    width:500px;
+    height: 300px;
+    margin-bottom: 70px;
+}
+.subscriptions{
+    display: flex;
+    flex-direction: row wrap;
+    width:100%;
+}
+.card{
+    width: 20%;
+    border: 1px solid black;
+    text-align: center;
+    line-height: 40px;
+    position: relative;
+    height: 100%;
+}
+.card h4{
+    background-color: #DDDDDD;
+}
+.card1{
+    margin-left: 18%;
+}
+.card3{
+    margin-right: 18%;
+}
+.card2{
+    margin: 0 2%;
+}
+.card p{
+    line-height: 30px;
+    margin: 8px 0;
+}
+.select-button{
+    background-color: #F1C40F;
+    padding:0px 15px;
+    cursor: pointer;
+}
+.card h4  , .card p{
+    padding:20px 0;
+}
+.card span{
+    margin-bottom: 25px;
+    display: inline-block;
+}
+footer{
+    background-color: #DDDDDD;
+    width:70%;
+    margin-top:15px ;
+    height: 10vh;
+}
+.last{
+    display: flex;
+    flex-flow: column;
+    align-items:flex-end;
+    line-height: 30px;
+}
+.last li{
+    list-style-type: none;
+    margin-right: 32px;
+    display: inline;
+}
+.last{
+    align-self: flex-end;
+  
+}
+@media  (min-width:756px) {
+    .card{
+        width: 100%;
+    }
+    
+}
